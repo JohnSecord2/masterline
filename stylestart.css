@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FEF5ED;
+}
+
+/* start header */
+.header {
+  background-image: url("images/Image 017.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* start of overlay */
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+/* end of overlay */
+.description {
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', sans-serif;
+  font-size: 4.5rem;
+  color: #ADC2A9;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  line-height: 1.5;
+  padding-top: 7%;
+}
+
+.container {
+  width: 45%;
+  padding-top: 3%;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* end of header */
+/* start of Type Images */
+img {
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+}
+
+/* Body */
+.list {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  margin-left: 40%;
+  text-align: left;
+  color: #222222;
+  line-height: 1.5;
+}
+
+/*--- start of footer ---*/
+.page-footer {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #99A799;
+  color: #FEF5ED;
+  width: 45%;
+  text-align: left;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-copyright {
+  color: #FEF5ED;
+}
+
+/*--- end of footer ---*/

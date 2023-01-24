@@ -1,0 +1,78 @@
+/* start navigation bar */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ADC2A9;
+  font-family: 'Lato', sans-serif;
+}
+.container{
+  padding: 7% 15%;
+}
+
+h1 {
+  color: #FEF5ED;
+  margin-top: 4%;
+}
+
+h2 {
+  color: #FEF5ED;
+}
+
+.form-group {
+  padding-bottom: 2%;
+}
+
+label {
+  color: #717D84;
+  padding-bottom: 10px;
+}
+
+.controls {
+  margin: 5% 10% 2%;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  color: #FFF;
+  display: block;
+}
+
+.btn-block {
+  display: block;
+  width: 80%;
+  color: #99A799;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* end of contact page */
+/*--- start of footer ---*/
+.footer {
+  padding-bottom: 3%;
+  width: 55%;
+}
+
+.page-footer {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ADC2A9;
+  color: #FEF5ED;
+  padding: 3%;
+}
+
+.footer-copyright {
+  color: #FEF5ED;
+}
+
+/*--- end of footer ---*/

@@ -1,0 +1,155 @@
+/* css/Style1 */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ADC2A9;
+}
+
+/* start header */
+.header {
+  background-image: url("images/Image 01SE.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* start of overlay */
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+/* end of overlay */
+.description {
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dancing Script', 'Montserrat', sans-serif;
+  font-size: 6rem;
+  color: #ADC2A9;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  line-height: 1.5;
+  padding-top: 7%;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  padding-top: 5%;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-align: left;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
+  color: #FFFFFF;
+  line-height: 1.5;
+  font-weight: normal;
+  text-align: justify;
+  padding-bottom: 5%;
+}
+
+/* end of header */
+/* start of features */
+
+
+.features {
+  position: relative;
+padding-top: 3%;
+padding-bottom: 3%;
+
+}
+
+/* end of header */
+/* start of features section */
+.feature-title {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-top: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*--- start of contact form---*/
+.features .btn {
+  background-color: #99A799;
+  border: 3px solid #99A799;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.features .btn:hover {
+  background-color: #333;
+  border: 3px solid #333;
+}
+
+.form-group {
+  padding-bottom: 3%;
+}
+
+/* end of contact form */
+/* end of feature section */
+/*--- start of footer ---*/
+.page-footer {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ADC2A9;
+  color: #FFFFFF;
+  text-align: left;
+  padding-bottom: 3%;
+}
+
+.footer-copyright {
+  color: #FFFFFF;
+}
+
+/*--- end of footer ---*/
+/*--- media queries ---*/
+/* start media */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
